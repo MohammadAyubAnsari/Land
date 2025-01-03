@@ -27,14 +27,14 @@ const App = () => {
           <Link to="/" style={{ margin: "10px" }}>
             Calculator (in Kaddi)
           </Link>
-          <Link to="/calculatorft" style={{ margin: "10px" }}>
+          <Link to="/calculator" style={{ margin: "10px" }}>
             Calculator (in Feet)
           </Link>
         </nav>
         <hr />
         <Routes>
-          <Route path="/" element={<Calculator />} />
-          <Route path="/calculatorft" element={<Calculatorft />} />
+          <Route path="/" element={<Calculatorft />} />
+          <Route path="/calculator" element={<Calculator />} />
         </Routes>
       </div>
     </Router>
